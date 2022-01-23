@@ -1,0 +1,7 @@
+
+<!--{% block title %}Forbidden{% endblock %}-->
+{% block body %}
+  <h1>Forbidden</h1>
+  <p>Restricted Route. Only admin can access this!</p>
+<p><a href="{{ url_for('get_all_posts') }}">go somewhere nice</a></p>
+{% endblock %}
